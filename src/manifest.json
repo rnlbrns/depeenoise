@@ -1,0 +1,20 @@
+{
+  "manifest_version": 2,
+  "name": "Peenoise Replacer",
+  "description": "This extension will replace certain words on the UI based on your configuration, e.g. replace the words Duterte with My Butt, Mocha Uson with witch. something like that :D",
+  "version": "1.0",
+  "permissions": [
+    "https://www.facebook.com/*"
+  ],
+  "content_scripts": [
+    {
+      "matches": ["https://www.facebook.com/*"],
+      "js": ["peenoise.js"],
+      "run_at": "document_end"
+    }
+  ],
+  
+  "browser_action": {
+   "default_icon": "icon.png"
+  }
+}
