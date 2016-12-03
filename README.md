@@ -1,0 +1,1 @@
+Just download depeenoise.crx and install it on your chrome browser
